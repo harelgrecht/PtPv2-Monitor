@@ -1,3 +1,29 @@
+# Ignore VSCode settings and metadata
 .vscode/
+
+# Ignore compiled object files
 objects/
+*.o
+
+# Ignore the compiled binary/executable
 ptp_slave
+
+# Ignore build artifacts
+build/
+*.out
+*.elf
+*.bin
+*.map
+*.log
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore dependency files generated during compilation
+*.d
+
+# Ignore Makefile auto-generated files (if any)
+*.dep
